@@ -1,1 +1,74 @@
 # python-program-to-generate-the-prime-number-from-1-to-N-
+num=int(input("Enter the range:"))
+for n in range(1,num):
+    for i in range(2,n):
+        if(n%i==0):
+            break
+        else:
+            print(n)
+
+output:
+Enter the range:20
+3
+5
+5
+5
+7
+7
+7
+7
+7
+9
+11
+11
+11
+11
+11
+11
+11
+11
+11
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+15
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
