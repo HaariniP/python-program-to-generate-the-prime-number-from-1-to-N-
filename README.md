@@ -1,0 +1,1 @@
+# python-program-to-generate-the-prime-number-from-1-to-N-
